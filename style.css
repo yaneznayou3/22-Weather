@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,700);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#textHeader{
+  text-align: center;
+  color: white;
+}
+
+header{
+  display: flex;
+  background: linear-gradient(to right,royalblue, hotpink);
+  height: 125px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#form{
+  border: 0;
+}
+
+#inputForm{
+  background-color: white;
+  height: 30px;
+  width: 250px;
+  border-radius: 2px;
+  padding-left: 50px;
+  border: 0;
+}
+
+#buttonForm{
+  background-color: royalblue;
+  color: white;
+  height: 25px;
+  width: 60px;
+  margin: -65px;
+  border-radius: 8px;
+  border: 0;
+}
+
+main{
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* box-shadow: 4px 4px 4px crimson; */
+  justify-content: center;
+  align-items: center;
+  border-width: thin;
+  border-width: 5px 10px 20px;
+  margin: 0 auto;
+}
+
+.card-weather{
+  width: 100%;
+}
+
+.card::before{
+  color: black;
+}
